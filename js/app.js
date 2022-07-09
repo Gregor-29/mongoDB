@@ -260,6 +260,13 @@
             }));
         }
     }), 0);
+    const menuLinks = document.querySelectorAll(".menu__link");
+    if (menuLinks.length) menuLinks.forEach((function(menuLink) {
+        menuLink.addEventListener("click", (function(e) {
+            menuLink.classList.toggle("_active");
+            console.log("click");
+        }));
+    }));
     window["FLS"] = true;
     isWebp();
     menuInit();
