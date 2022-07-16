@@ -720,6 +720,7 @@ h6 {
 
 .roadMap__body {
   display: -ms-grid;
+  align-items:start;
   display: grid;
   -webkit-column-gap: 40px;
      -moz-column-gap: 40px;
